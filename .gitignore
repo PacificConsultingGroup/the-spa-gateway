@@ -1,0 +1,11 @@
+
+# env
+.env
+
+# Ignored directories
+/node_modules
+/dist
+/dev
+/ignored
+/debug
+/settings

@@ -1,0 +1,10 @@
+{
+  // "[scss]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.formatOnPaste": false,
+  //   "editor.formatOnType": false
+  // },
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "editor.tabSize": 4
+}
