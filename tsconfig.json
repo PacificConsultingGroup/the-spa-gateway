@@ -1,20 +1,31 @@
 {
-  "compilerOptions": {
-      "module": "commonjs",
-      "esModuleInterop": true,
-      "target": "es6",
-      "noImplicitAny": true,
-      "moduleResolution": "node",
-      "sourceMap": true,
-      "outDir": "dist",
-      "baseUrl": ".",
-      "paths": {
-            "*": [
-                "node_modules/*"
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "typeRoots": [
+            "./types",
+            "./node_modules/@types"
+        ],
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "@root/*": [
+                "./*"
             ]
         }
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "types/**/*"
+    ],
+    "exclude": [
+        "node_modules"
     ]
-}   
+}

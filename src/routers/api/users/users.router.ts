@@ -1,6 +1,4 @@
 
-import express from "express";
+import express from 'express';
 
-const usersRouter = express.Router();
-
-// usersRouter.get('/', getAllUsersHandler);
+export const usersRouter = express.Router();

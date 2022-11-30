@@ -1,6 +1,7 @@
 
-# env
+# Sensities
 .env
+src/schema/
 
 # Ignored directories
 /node_modules
