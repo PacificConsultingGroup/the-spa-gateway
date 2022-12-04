@@ -1,7 +1,7 @@
 
-import { RequestHandler } from 'express';
+import type { RequestHandler } from 'express';
 import { getEnvVariableValue } from '@/utils/general.utils';
-import { getPersonByEmail } from '@/models/user.model';
+import { getPersonByEmail } from '@/models/person.model';
 import { generateAccessToken, verifyCredentials } from '@/utils/auth.utils';
 
 const ACCESS_TOKEN_COOKIE_NAME = getEnvVariableValue('ACCESS_TOKEN_COOKIE_NAME');

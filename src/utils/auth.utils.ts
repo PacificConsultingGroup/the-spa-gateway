@@ -3,7 +3,7 @@ import type { JwtPayload } from 'jsonwebtoken';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
 import type { Person } from '@/schema/Person';
-import { getPersonByEmail } from '@/models/user.model';
+import { getPersonByEmail } from '@/models/person.model';
 import { getEnvVariableValue } from './general.utils';
 
 type AccessTokenPayload = JwtPayload & { personUuid: Person['person_uuid'] };
